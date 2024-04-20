@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"; 
 import model from "./model.js";
 export const createUser = (user) => {
     user._id = new mongoose.Types.ObjectId();
