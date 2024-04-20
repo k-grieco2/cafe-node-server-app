@@ -1,11 +1,13 @@
-//import userModel from "./model.js";
-
-//export const fetchAllUsers = () => userModel.find();
-//export const findUserById = (id) => userModel.findById(id);
-//export const findUserByUsername = (username) => userModel.findOne({ username });
-//export const findUserByCredentials = (username, password) =>
-  //userModel.findOne({ username, password });
-//export const createUser = (user) => userModel.create(user);
-//export const updateUser = (id, user) =>
-  //userModel.updateOne({ _id: id }, { $set: user });
-//export const deleteUser = (id) => userModel.deleteOne({ _id: id });
+import mongoose from "mongoose";
+import model from "./model.js";
+export const createUser = (user) => {
+    user._id = new mongoose.Types.ObjectId();
+    return model.create(user);
+};
+export const findAllUsers = () => model.find();
+export const findUserById = (userId) => model.findById(userId);
+export const findUserByEmail = (email) =>  model.findOne({ email: email });
+export const findUserByCredentials = (email, password) =>  model.findOne({ email, password });
+export const findUsersByRole = (role) => model.find({ role: role });
+export const updateUser = (userId, user) =>  model.updateOne({ _id: userId }, { $set: user });
+export const deleteUser = (userId) => model.deleteOne({ _id: userId });

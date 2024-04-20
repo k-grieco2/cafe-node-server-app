@@ -1,24 +1,22 @@
-//import mongoose from "mongoose";
-//const userSchema = new mongoose.Schema(
-  //{
-    //password: { type: String, required: true },
-    //firstName: String,
-    //lastName: String,
-    //email: { type: String, unique: true, required: true },
-    //dob: Date,
-    //role: {
-      //type: String,
-      //default: "guest",
-      //enum: ["owner", "admin", "customer", "guest"],
-    //},
-    //likesAlbums: [
-      //{
-        //ref: "albums",
-        //type: mongoose.Schema.Types.ObjectId,
-      //},
-    //],
-  //},
-  //{ collection: "users" }
-//);
-
-//export default userSchema;
+import mongoose from "mongoose";
+const userSchema = new mongoose.Schema({
+    _id: String,
+    full_name: String,
+    email: { type: String, required: true, unique: true },
+    password: { type: String, require: true },
+    image: String,
+    birthdate: Date,
+    hometown: String,
+    bio: String,
+    interests: Array,
+    favorite_cafe_days: Array,
+    favorite_drinks: Array,
+    favorite_menu_items: Array,
+    favorite_recipes: Array,
+    role: {
+      type: String,
+      enum: ["admin", "customer", "owner", "guest"],
+      default: "customer",},
+  },
+  { collection: "users" });
+export default userSchema;
