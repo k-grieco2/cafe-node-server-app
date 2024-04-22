@@ -20,8 +20,7 @@ export default [
             "Herbal Tea",
             "Smoothies"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.foodnetwork.com/recipes/aarti-sequeira/saag-paneer1-1927603",
             "https://www.foodista.com/recipe/VRC2NDR7/pan-fried-teriyaki-cod-fish"
@@ -48,13 +47,11 @@ export default [
         "favorite_drinks": [
             "Iced Coffee"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.foodista.com/recipe/5NHSWHH8/red-braised-pork-belly",
             "https://www.recipetineats.com/butter-chicken/",
             "https://www.foodista.com/recipe/KX3QGS38/champagne-cocktail-valentine-s-day-cocktail"
-
         ],
         "role": "admin"
     },
@@ -79,8 +76,7 @@ export default [
             "Espresso",
             "Cappuccino"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.foodista.com/recipe/KX3QGS38/champagne-cocktail-valentine-s-day-cocktail",
             "https://www.indianhealthyrecipes.com/masala-dosa-recipe/",
@@ -112,10 +108,42 @@ export default [
             "Coffee",
             "Matcha Latte"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.foodista.com/recipe/5NHSWHH8/red-braised-pork-belly"
+        ],
+        "role": "customer"
+    },
+    {
+        "_id": "a32999bc-873c-4f5a-94a7-91db454c624b",
+        "full_name": "Gibran Myageri",
+        "image": "gibran.jpg",
+        "email": "gibran@gmail.com",
+        "password": "gibran123",
+        "birthdate": "1990-05-15",
+        "hometown": "Boston, MA",
+        "bio": "Passionate web developer, TA, student, and programmer.",
+        "interests": [
+            "Teaching",
+            "Travel",
+            "Web Development",
+            "My Family"
+        ],
+        "favorite_cafe_days": [
+            "Monday",
+            "Thursday"
+        ],
+        "favorite_drinks": [
+            "Coffee",
+            "Black Tea",
+            "Pumpkin Juice"
+        ],
+        "favorite_recipes": [
+            "https://www.allrecipes.com/recipe/146035/the-best-thai-coconut-soup/",
+            "https://www.allrecipes.com/recipe/274427/grilled-pollo-a-la-brasa/",
+            "https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/",
+            "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+            "https://www.allrecipes.com/recipe/6698/moms-zucchini-bread/"
         ],
         "role": "customer"
     },
@@ -136,10 +164,8 @@ export default [
             "Thursday",
             "Saturday"
         ],
-        "favorite_drinks": [
-        ],
-        "favorite_menu_items": [
-        ],
+        "favorite_drinks": [],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.foodista.com/recipe/5NHSWHH8/red-braised-pork-belly"
         ],
@@ -166,8 +192,7 @@ export default [
             "Flat White",
             "Chai Latte"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/ramen-crust-pizza-recipe"
         ],
@@ -194,10 +219,8 @@ export default [
             "Hot Chocolate",
             "Tea"
         ],
-        "favorite_menu_items": [
-        ],
-        "favorite_recipes": [
-        ],
+        "favorite_menu_items": [],
+        "favorite_recipes": [],
         "role": "customer"
     },
     {
@@ -221,8 +244,7 @@ export default [
             "Butterbeer",
             "Pumpkin Juice"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/ultimate-fully-loaded-nachos",
             "https://www.seriouseats.com/bacon-hot-dog-avocado-tomato-onion-mayonnaise-recipe"
@@ -250,8 +272,7 @@ export default [
             "Butterbeer",
             "Pumpkin Juice"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/fried-jalapeno-poppers-cheese-recipe"
         ],
@@ -280,8 +301,7 @@ export default [
             "Mocha",
             "Macchiato"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/fried-jalapeno-poppers-cheese-recipe"
         ],
@@ -307,8 +327,7 @@ export default [
         "favorite_drinks": [
             "Cantina House Brew"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/chili-cheese-dogs-grilled-cheese-recipe"
         ],
@@ -337,8 +356,7 @@ export default [
             "Green Tea",
             "St. Patrick's Day Guinness"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/perfect-french-fries-recipe",
             "https://www.gimmesomeoven.com/matcha-latte-recipe/",
@@ -351,7 +369,7 @@ export default [
         "full_name": "Han Solo",
         "email": "han.solo@gmail.com",
         "password": "solo123",
-        "image": "solo.jpg",
+        "image": "han.jpg",
         "birthdate": "1977-12-31",
         "hometown": "Corellia",
         "bio": "Smuggler. Captain of the Millennium Falcon. Partner of Chewbacca.",
@@ -367,8 +385,7 @@ export default [
             "Espresso",
             "Cappuccino"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.modernfarmhouseeats.com/brown-sugar-shaken-espresso-latte/",
             "https://www.seriouseats.com/basque-cheesecake",
@@ -397,13 +414,11 @@ export default [
             "Cortado",
             "Iced Tea"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.peanutblossom.com/blog/harry-potter-chocolate-frogs-recipe/",
             "https://www.daringgourmet.com/treacle-tart/",
             "https://www.foodandwine.com/best-espresso-drinks-7559217"
-
         ],
         "role": "customer"
     },
@@ -429,8 +444,7 @@ export default [
             "Nitro Cold Brew",
             "Smoothie"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/basque-cheesecake",
             "https://thestarvingchefblog.com/house-elf-beef-dumpling-stew-harry-potter-inspired-recipes/"
@@ -457,8 +471,7 @@ export default [
         "favorite_drinks": [
             "Pumpkin Juice"
         ],
-        "favorite_menu_items": [
-        ],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/carciofi-alla-romana-roman-italian-braised-artichoke-recipe"
         ],
@@ -481,10 +494,8 @@ export default [
             "Wednesday",
             "Friday"
         ],
-        "favorite_drinks": [
-        ],
-        "favorite_menu_items": [
-        ],
+        "favorite_drinks": [],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/basque-cheesecake"
         ],
@@ -506,10 +517,8 @@ export default [
         "favorite_cafe_days": [
             "Friday"
         ],
-        "favorite_drinks": [
-        ],
-        "favorite_menu_items": [
-        ],
+        "favorite_drinks": [],
+        "favorite_menu_items": [],
         "favorite_recipes": [
             "https://www.seriouseats.com/basque-cheesecake",
             "https://serenalissy.com/the-cronut/",
