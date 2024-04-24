@@ -20,6 +20,7 @@ if (process.env.NODE_ENV !== "development") {
       domain: process.env.HTTP_SERVER_DOMAIN,
     };
     sessionOptions.name = 'CafeWebApp';
+    sessionOptions.proxy = true;
 }  
 app.use(session(sessionOptions));
 app.use(cors({
