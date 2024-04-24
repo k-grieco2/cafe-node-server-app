@@ -62,8 +62,8 @@ export default [
         "email": "sarah.witzig@gmail.com",
         "password": "sarah123",
         "birthdate": "1995-12-20",
-        "hometown": "New York City, New York",
-        "bio": "Creative designer and coffee enthusiast.",
+        "hometown": "Camp Lejeune MCB, North Carolina",
+        "bio": "Lover of language learning, petter of dogs, good friend to all. You'll find me chugging capuccinos in the comfy chair in the back corner, or petting the sweet dogs on the patio.",
         "interests": [
             "Design",
             "Photography"
@@ -81,7 +81,8 @@ export default [
             "https://www.foodista.com/recipe/KX3QGS38/champagne-cocktail-valentine-s-day-cocktail",
             "https://www.indianhealthyrecipes.com/masala-dosa-recipe/",
             "https://www.thespruceeats.com/how-to-make-cappuccinos-766116",
-            "https://veganhuggs.com/vegetable-paella-recipe/"
+            "https://veganhuggs.com/vegetable-paella-recipe/",
+            "http://www.vegrecipesofindia.com/masala-dosa-recipe-how-to-make-masala-dosa-recipe/"
         ],
         "role": "admin"
     },
@@ -110,7 +111,8 @@ export default [
         ],
         "favorite_menu_items": [],
         "favorite_recipes": [
-            "https://www.foodista.com/recipe/5NHSWHH8/red-braised-pork-belly"
+            "https://www.foodista.com/recipe/5NHSWHH8/red-braised-pork-belly",
+            "http://www.vegrecipesofindia.com/masala-dosa-recipe-how-to-make-masala-dosa-recipe/"
         ],
         "role": "customer"
     },
@@ -134,16 +136,44 @@ export default [
             "Thursday"
         ],
         "favorite_drinks": [
+            "Butterbeer",
             "Coffee",
             "Black Tea",
             "Pumpkin Juice"
         ],
         "favorite_recipes": [
+            "https://www.bbcgoodfood.com/recipes/cake-pops",
+            "http://www.vegrecipesofindia.com/masala-dosa-recipe-how-to-make-masala-dosa-recipe/",
             "https://www.allrecipes.com/recipe/146035/the-best-thai-coconut-soup/",
             "https://www.allrecipes.com/recipe/274427/grilled-pollo-a-la-brasa/",
             "https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/",
             "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
             "https://www.allrecipes.com/recipe/6698/moms-zucchini-bread/"
+        ],
+        "role": "customer"
+    },
+    {
+        "_id": "c32988bc-873c-4f5a-94a7-91db454c624b",
+        "full_name": "Lando Calrissian",
+        "image": "lando.jpg",
+        "email": "lando@yahoo.com",
+        "password": "lando123",
+        "birthdate": "1980-03-01",
+        "hometown": "Cloud City, Bespin",
+        "bio": "Ah, greetings! I'm a smooth-talking gambler turned Baron Administrator of Cloud City. Known for my charm and daring adventures aboard the Millennium Falcon, I've played a crucial role in the Rebel Alliance's fight against the Galactic Empire. From high-stakes gambles to piloting heroics, I've always known how to navigate the galaxy with style and flair.",
+        "interests": [
+            "gambling", "piloting", "smooth-talking", "fashion", "luxury"
+        ],
+        "favorite_cafe_days": [
+            "Friday"
+        ],
+        "favorite_drinks": ["Corellian ale", "Sabacc sunset", "Cloud City fizz", "Lando's Lagoon"],
+        "favorite_menu_items": [],
+        "favorite_recipes": [
+            "https://www.starwars.com/news/serve-porgin-pie-the-galaxys-cutest-thanksgiving-dessert",
+            "https://www.starwars.com/news/andor-chandrilan-squigs-recipe",
+            "https://www.starwars.com/news/dianoga-meatballs",
+            "https://www.bbcgoodfood.com/recipes/cake-pops"
         ],
         "role": "customer"
     },
@@ -194,7 +224,8 @@ export default [
         ],
         "favorite_menu_items": [],
         "favorite_recipes": [
-            "https://www.seriouseats.com/ramen-crust-pizza-recipe"
+            "https://www.seriouseats.com/ramen-crust-pizza-recipe",
+            "https://www.bbcgoodfood.com/recipes/cake-pops"
         ],
         "role": "customer"
     },
@@ -329,7 +360,8 @@ export default [
         ],
         "favorite_menu_items": [],
         "favorite_recipes": [
-            "https://www.seriouseats.com/chili-cheese-dogs-grilled-cheese-recipe"
+            "https://www.seriouseats.com/chili-cheese-dogs-grilled-cheese-recipe",
+            "http://www.vegrecipesofindia.com/masala-dosa-recipe-how-to-make-masala-dosa-recipe/"
         ],
         "role": "customer"
     },
