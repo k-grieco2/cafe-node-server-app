@@ -1,0 +1,149 @@
+export default [
+    {
+        "name": "Herbal Tea",
+        "calories": 0,
+        "description": "A soothing blend of herbs and botanicals infused in hot water.",
+        "ingredients": ["Assorted herbs"],
+        "price": 3.99
+    },
+    {
+        "name": "Smoothies",
+        "calories": 150,
+        "description": "Refreshing blended drink made with fruits and yogurt or juice.",
+        "ingredients": ["Banana", "Berries", "Yogurt", "Honey"],
+        "price": 5.49
+    },
+    {
+        "name": "Iced Coffee",
+        "calories": 120,
+        "description": "Chilled coffee served over ice.",
+        "ingredients": ["Coffee", "Ice", "Sugar (optional)", "Milk (optional)"],
+        "price": 4.25
+    },
+    {
+        "name": "Espresso",
+        "calories": 5,
+        "description": "Strong, concentrated coffee served in small shots.",
+        "ingredients": ["Coffee beans"],
+        "price": 2.99
+    },
+    {
+        "name": "Cappuccino",
+        "calories": 120,
+        "description": "Coffee drink topped with frothy milk.",
+        "ingredients": ["Espresso", "Milk", "Foamed milk"],
+        "price": 4.75
+    },
+    {
+        "name": "Coffee",
+        "calories": 5,
+        "description": "Hot brewed coffee.",
+        "ingredients": ["Coffee beans", "Hot water"],
+        "price": 3.49
+    },
+    {
+        "name": "Matcha Latte",
+        "calories": 100,
+        "description": "Green tea powder mixed with steamed milk.",
+        "ingredients": ["Matcha powder", "Milk", "Sweetener (optional)"],
+        "price": 4.99
+    },
+    {
+        "name": "Black Tea",
+        "calories": 0,
+        "description": "Strong brewed black tea.",
+        "ingredients": ["Black tea leaves", "Hot water"],
+        "price": 3.25
+    },
+    {
+        "name": "Pumpkin Juice",
+        "calories": 80,
+        "description": "Spiced pumpkin-flavored beverage.",
+        "ingredients": ["Pumpkin puree", "Spices", "Apple juice"],
+        "price": 4.99
+    },
+    {
+        "name": "Butterbeer",
+        "calories": 200,
+        "description": "Sweet butterscotch-flavored wizarding beverage.",
+        "ingredients": ["Butterscotch syrup", "Cream soda", "Whipped cream (optional)"],
+        "price": 5.99
+    },
+    {
+        "name": "Cabernet",
+        "calories": 120,
+        "description": "Red wine made from Cabernet Sauvignon grapes.",
+        "ingredients": ["Cabernet Sauvignon grapes"],
+        "price": 8.99
+    },
+    {
+        "name": "Nitro Cold Brew",
+        "calories": 15,
+        "description": "Cold brew coffee infused with nitrogen for a creamy texture.",
+        "ingredients": ["Cold brew coffee", "Nitrogen"],
+        "price": 5.49
+    },
+    {
+        "name": "Mocha",
+        "calories": 250,
+        "description": "Chocolate-flavored espresso drink with steamed milk.",
+        "ingredients": ["Espresso", "Chocolate syrup", "Steamed milk"],
+        "price": 4.99
+    },
+    {
+        "name": "Macchiato",
+        "calories": 150,
+        "description": "Espresso 'stained' with a dash of frothy milk.",
+        "ingredients": ["Espresso", "Milk foam"],
+        "price": 4.25
+    },
+    {
+        "name": "Pistachio Latte",
+        "calories": 180,
+        "description": "Latte flavored with pistachio syrup.",
+        "ingredients": ["Espresso", "Milk", "Pistachio syrup"],
+        "price": 5.49
+    },
+    {
+        "name": "Matcha",
+        "calories": 80,
+        "description": "Fine green tea powder mixed with hot water.",
+        "ingredients": ["Matcha powder", "Hot water"],
+        "price": 4.25
+    },
+    {
+        "name": "Green Tea",
+        "calories": 0,
+        "description": "Light and refreshing brewed green tea.",
+        "ingredients": ["Green tea leaves", "Hot water"],
+        "price": 3.49
+    },
+    {
+        "name": "St. Patrick's Day Guinness",
+        "calories": 210,
+        "description": "Dark stout beer traditionally enjoyed on St. Patrick's Day.",
+        "ingredients": ["Barley", "Hops", "Yeast"],
+        "price": 6.99
+    },
+    {
+        "name": "Hot Chocolate",
+        "calories": 200,
+        "description": "Rich and creamy hot chocolate made with milk and cocoa.",
+        "ingredients": ["Cocoa powder", "Milk", "Sugar"],
+        "price": 4.75
+    },
+    {
+        "name": "Tea",
+        "calories": 0,
+        "description": "Hot brewed tea, available in various flavors.",
+        "ingredients": ["Tea leaves", "Hot water"],
+        "price": 3.25
+    },
+    {
+        "name": "Cantina House Brew",
+        "calories": 150,
+        "description": "House-specialty brewed beverage served in the cantina.",
+        "ingredients": ["Secret blend"],
+        "price": 5.99
+    }
+];
